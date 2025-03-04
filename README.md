@@ -37,7 +37,7 @@ NodeCommerce is an enterprise-grade e-commerce platform built with **Node.js** a
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/NodeCommerce.git
+git clone https://github.com/harmanpreetdev/NodeCommerce.git
 cd NodeCommerce
 ```
 
