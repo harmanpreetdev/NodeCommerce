@@ -1,0 +1,27 @@
+# Root marker to avoid cascading configs from parent directories
+root = true
+
+# Default settings for all files
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# JavaScript & TypeScript files
+[*.{js,ts,jsx,tsx}]
+indent_size = 2
+
+# JSON & YAML files
+[*.{json,yml,yaml}]
+indent_size = 2
+
+# Markdown files (avoid trimming whitespace for better formatting)
+[*.md]
+trim_trailing_whitespace = false
+
+# Makefiles use tabs, not spaces
+[Makefile]
+indent_style = tab
